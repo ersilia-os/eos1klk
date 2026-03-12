@@ -1,0 +1,1 @@
+{"featurizer": "ecfp", "radius": 2, "n_bits": 2048, "rdkit_version": "2024.03.6"}
