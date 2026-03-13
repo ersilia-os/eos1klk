@@ -1,6 +1,6 @@
 Identifier: eos1klk
 Slug: lazychemvis-reference-library
-Status: In progress
+Status: Ready
 Title: lazychemvis-ref-library
 Description: This model uses lazy-chemvis tool to performs PCA, UMAP, t-SNE and 
   TMAP projections taking the Ersilia Reference Library with 1.3M compounds as a
@@ -34,6 +34,16 @@ Source Code: https://github.com/ersilia-os/lazy-chemvis
 License: MIT
 Contributor: Marina18
 Incorporation Date: '2026-03-10'
+Last Packaging Date: '2026-03-13'
+Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos1klk.zip
+DockerHub: https://hub.docker.com/r/ersiliaos/eos1klk
+Docker Architecture: AMD64
 Model Size: 5677.0
 Environment Size: 8081.0
+Image Size: 16530.14
+Computational Performance 1: 45.93
+Computational Performance 2: 48.61
+Computational Performance 3: 150.57
+Computational Performance 4: 1279.27
+Computational Performance 5: -1.0
