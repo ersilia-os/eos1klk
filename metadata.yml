@@ -9,7 +9,6 @@ Description: This model uses lazy-chemvis tool to performs PCA, UMAP, t-SNE and
   are returned for each projection method.
 Deployment:
   - Local
-
 Source: Local
 Source Type: Internal
 Task: Representation
@@ -34,3 +33,4 @@ Publication: https://github.com/ersilia-os/lazy-chemvis
 Source Code: https://github.com/ersilia-os/lazy-chemvis
 License: MIT
 Contributor: Marina18
+Incorporation Date: '2026-03-10'
