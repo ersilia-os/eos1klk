@@ -1,7 +1,7 @@
 Identifier: eos1klk
 Slug: lazychemvis-reference-library
 Status: Ready
-Title: lazychemvis-ref-library
+Title: 2D projector trained on ersilia reference library
 Description: This model uses lazy-chemvis tool to performs PCA, UMAP, t-SNE and 
   TMAP projections taking the Ersilia Reference Library with 1.3M compounds as a
   chemical space of reference. ECFP4 fingerprints (2048 bits) and RDKit 
