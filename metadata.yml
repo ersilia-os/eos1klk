@@ -35,7 +35,7 @@ License: MIT
 Contributor: Marina18
 Incorporation Date: '2026-03-10'
 Last Packaging Date: '2026-04-27'
-Release: v1.0.0
+Release: v1.1.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos1klk.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos1klk
 Docker Architecture: AMD64
