@@ -39,7 +39,7 @@ Release: v1.1.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos1klk.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos1klk
 Docker Architecture: AMD64
-Model Size: 2987.0
+Model Size: 340.0
 Environment Size: 8290.0
 Image Size: 16538.34
 Computational Performance 1: 48.66
