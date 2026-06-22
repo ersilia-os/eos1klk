@@ -2,7 +2,7 @@
 
 This model uses lazy-chemvis tool to performs PCA, UMAP, t-SNE and TMAP projections taking the Ersilia Reference Library with 1.3M compounds as a chemical space of reference. ECFP4 fingerprints (2048 bits) and RDKit physicochemical descriptors are used as molecular descriptors. Two coordinates are returned for each projection method.
 
-This model was incorporated on 2026-03-10.Last packaged on 2026-05-28.
+This model was incorporated on 2026-03-10.Last packaged on 2026-06-22.
 
 ## Information
 ### Identifiers
@@ -42,18 +42,18 @@ Below are the **Output Columns** of the model:
 - **Source:** `Local`
 - **Source Type:** `Internal`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos1klk](https://hub.docker.com/r/ersiliaos/eos1klk)
-- **Docker Architecture:** `AMD64`
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos1klk.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos1klk.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `340`
 - **Environment Size (Mb):** `8302`
-- **Image Size (Mb):** `9233.2`
+- **Image Size (Mb):** `9256.49`
 
 **Computational Performance (seconds):**
-- 10 inputs: `33.53`
-- 100 inputs: `37.36`
-- 10000 inputs: `871.86`
+- 10 inputs: `41`
+- 100 inputs: `41.51`
+- 10000 inputs: `866.73`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/lazy-chemvis](https://github.com/ersilia-os/lazy-chemvis)
