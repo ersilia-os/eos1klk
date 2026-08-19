@@ -1,6 +1,6 @@
 # 2D projector trained on ersilia reference library
 
-This model uses lazy-chemvis tool to performs PCA, UMAP, t-SNE and TMAP projections taking the Ersilia Reference Library with 1.3M compounds as a chemical space of reference. ECFP4 fingerprints (2048 bits) and RDKit physicochemical descriptors are used as molecular descriptors. Two coordinates are returned for each projection method.
+Positions a compound against the Ersilia Reference Library of 1.3 million molecules, returning coordinates from four complementary projections: PCA, UMAP, t-SNE and TMAP. Each captures a different aspect of the space, PCA preserving global variance while the others emphasise local neighbourhood structure, so a compound can be examined from several perspectives at once. ECFP4 fingerprints and RDKit descriptors provide the input, and coordinates are meaningful only relative to this fixed reference.
 
 This model was incorporated on 2026-03-10.Last packaged on 2026-06-22.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2026-03-10.Last packaged on 2026-06-22.
 ### Output
 - **Output Dimension:** `8`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Coordinates of 2D projections, namely PCA, UMAP, tSNE and TMAP.
+- **Interpretation:** Coordinates from PCA, UMAP, t-SNE and TMAP projections against the Ersilia reference library.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
@@ -63,7 +63,7 @@ Below are the **Output Columns** of the model:
 - **Ersilia Contributor:** [Marina18](https://github.com/Marina18)
 
 ### License
-This package is licensed under a [GPL-3.0](https://github.com/ersilia-os/ersilia/blob/master/LICENSE) license. The model contained within this package is licensed under a [MIT](LICENSE) license.
+This package is licensed under a [GPL-3.0](https://github.com/ersilia-os/ersilia/blob/master/LICENSE) license. The model contained within this package is licensed under a [GPL-3.0-or-later](LICENSE) license.
 
 **Notice**: Ersilia grants access to models _as is_, directly from the original authors, please refer to the original code repository and/or publication if you use the model in your research.
 
