@@ -2,7 +2,7 @@
 
 This model uses lazy-chemvis tool to performs PCA, UMAP, t-SNE and TMAP projections taking the Ersilia Reference Library with 1.3M compounds as a chemical space of reference. ECFP4 fingerprints (2048 bits) and RDKit physicochemical descriptors are used as molecular descriptors. Two coordinates are returned for each projection method.
 
-This model was incorporated on 2026-03-10.Last packaged on 2026-06-22.
+This model was incorporated on 2026-03-10.Last packaged on 2026-09-25.
 
 ## Information
 ### Identifiers
@@ -48,12 +48,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `340`
 - **Environment Size (Mb):** `2052`
-- **Image Size (Mb):** `9256.49`
+- **Image Size (Mb):** `3010.29`
 
 **Computational Performance (seconds):**
-- 10 inputs: `41`
-- 100 inputs: `41.51`
-- 10000 inputs: `866.73`
+- 10 inputs: `34.47`
+- 100 inputs: `33.89`
+- 10000 inputs: `759.53`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/lazy-chemvis](https://github.com/ersilia-os/lazy-chemvis)
