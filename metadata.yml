@@ -2,13 +2,13 @@ Identifier: eos1klk
 Slug: lazychemvis-reference-library
 Status: Ready
 Title: 2D projector trained on ersilia reference library
-Description: 'Positions a compound against the Ersilia Reference Library of 1.3 million
-  molecules, returning coordinates from four complementary projections: PCA, UMAP,
-  t-SNE and TMAP. Each captures a different aspect of the space, PCA preserving global
-  variance while the others emphasise local neighbourhood structure, so a compound
-  can be examined from several perspectives at once. ECFP4 fingerprints and RDKit
-  descriptors provide the input, and coordinates are meaningful only relative to this
-  fixed reference.'
+Description: Positions a compound against the Ersilia Reference Library of 1.3 million
+  molecules, returning coordinates from four complementary projections, PCA, UMAP,
+  t-SNE and TMAP. PCA is applied directly to standardised RDKit descriptors, while
+  UMAP and t-SNE coordinates come from XGBoost surrogates trained on 2048-bit ECFP4
+  fingerprints and the TMAP position is taken from the most similar reference molecule,
+  since none of those three has an exact out-of-sample transform. Coordinates are
+  meaningful only relative to this fixed reference.
 Deployment:
   - Local
 Source: Local
