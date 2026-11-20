@@ -2,7 +2,8 @@
 
 Positions a compound against the Ersilia Reference Library of 1.3 million molecules, returning coordinates from four complementary projections, PCA, UMAP, t-SNE and TMAP. PCA is applied directly to standardised RDKit descriptors, while UMAP and t-SNE coordinates come from XGBoost surrogates trained on 2048-bit ECFP4 fingerprints and the TMAP position is taken from the most similar reference molecule, since none of those three has an exact out-of-sample transform. Coordinates are meaningful only relative to this fixed reference.
 
-This model was incorporated on 2026-03-10.Last packaged on 2026-09-25.
+This model was incorporated on 2026-03-10.
+Last packaged on 2026-09-25.
 
 ## Information
 ### Identifiers
@@ -44,6 +45,7 @@ Below are the **Output Columns** of the model:
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos1klk](https://hub.docker.com/r/ersiliaos/eos1klk)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos1klk.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos1klk.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos1klk_v2.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos1klk_v2.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `340`
